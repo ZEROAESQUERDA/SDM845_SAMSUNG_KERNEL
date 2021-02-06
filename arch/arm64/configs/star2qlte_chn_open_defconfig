@@ -1219,7 +1219,7 @@ CONFIG_BT_HS=y
 CONFIG_BT_LE=y
 # CONFIG_BT_LEDS is not set
 # CONFIG_BT_SELFTEST is not set
-CONFIG_BT_DEBUGFS=y
+#CONFIG_BT_DEBUGFS is not set
 
 #
 # Bluetooth device drivers
@@ -5319,7 +5319,8 @@ CONFIG_GATOR=y
 #
 # MPSD System Intelligence kernel module
 #
-CONFIG_MPSD=y
+
+#CONFIG_MPSD is not set
 # CONFIG_MPSD_DEBUG is not set
 # CONFIG_TZIC is not set
 
