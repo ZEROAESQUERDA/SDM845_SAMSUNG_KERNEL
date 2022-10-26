@@ -1,4 +1,4 @@
-CROSS_COMPILE=~/dev/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+CROSS_COMPILE=/root/dev/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 #
 # arch/arm64/Makefile
 #

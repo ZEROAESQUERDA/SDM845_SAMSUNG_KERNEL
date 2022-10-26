@@ -18,7 +18,7 @@
 #ifndef __SM5720_FUELGAUGE_H
 #define __SM5720_FUELGAUGE_H __FILE__
 
-#include "include/sec_charging_common.h"
+#include "sec_charging_common.h"
 
 #include <linux/mfd/core.h>
 #include <linux/mfd/sm5720.h>
