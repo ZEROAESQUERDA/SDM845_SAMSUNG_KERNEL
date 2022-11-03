@@ -29,6 +29,7 @@
 #include <linux/time.h>
 #include <linux/timer.h>
 #include <linux/workqueue.h>
+#include <linux/earlysuspend.h>
 #include <linux/kthread.h>
 #include <linux/slab.h>
 #include <linux/kernel_stat.h>
@@ -129,7 +130,7 @@ static
 #endif
 struct cpufreq_governor cpufreq_gov_interactivex = {
 	.name = "interactivex",
-	.governor = cpufreq_governor_interactivex,
+	.governor = cpufreq_governor_interactive,
 	.max_transition_latency = 10000000,
 	.owner = THIS_MODULE,
 };
